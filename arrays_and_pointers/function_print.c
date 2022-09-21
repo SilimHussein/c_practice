@@ -9,5 +9,4 @@
 void f(int *a)
 {
 	printf("a: %p\n", a);
-	return;
 }
