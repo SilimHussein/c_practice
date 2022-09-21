@@ -6,13 +6,8 @@
  */
 int main(void)
 {
-	int a[5];
+	int a[5] = {98, 198, 298, 398, 498};
 
-	a[0] = 98;
-	a[1] = 198;
-	a[2] = 298;
-	a[3] = 398;
-	a[4] = 498;
 	printf("The value of a [0] : %d\n", a[0]);
 	printf("The value of a [1] : %d\n", a[1]);
 	printf("The value of a [2] : %d\n", a[2]);

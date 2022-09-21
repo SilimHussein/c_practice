@@ -24,7 +24,7 @@ int main(void)
 	*p = 402;
 	*pp = 'o';
 	printf("New Value of 'n' post differencing: %d\n", n);
-	printf("Value of '*pp' : %d\n", *pp);
+	printf("Value of '*p' : %d\n", *p);
 	printf("Value of 'c' : %d ('%c')\n", c, c);
 	printf("Value of '*pp' : %d ('%c')\n", *pp, *pp);
 	return (0);
