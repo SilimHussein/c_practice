@@ -15,7 +15,7 @@ int main(void)
 	}
 	for (i = 4; i >= 0; i--)
 	{
-		printf("a[1]: %d\n", a[i]);
+		printf("a[%d]: %d\n", i, a[i]);
 	}
 	return (0);
 }
