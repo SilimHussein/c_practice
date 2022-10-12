@@ -12,7 +12,7 @@ bool is_palindrome(char string[]);
 
 int main(void)
 {
-	char string1[] = "not a palindrome !";
+	char string1[] = "abcdcba";
 
 	if (is_palindrome(string1))
 		printf("%s \n - is palindrome \n", string1);

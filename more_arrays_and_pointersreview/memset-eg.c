@@ -15,7 +15,7 @@ int main(void)
 
 	strcpy(str, "this is strin.h library function");
 	puts(str);
-	memset(str, '$', 7);
+	memset(str + 6, '$', 7);
 	puts(str);
 	return (0);
 }
